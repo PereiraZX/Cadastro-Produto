@@ -1,0 +1,59 @@
+<html>
+
+<head>
+    <title>Cadastro produto</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/formulario.css">
+    <script src="js/verificacao.js"></script>
+</head>
+
+<body>
+    <form action="finalizado.html">
+        <div class="form_box">
+            <h1>CADASTRE O PRODUTO</h1>
+
+            <div class="erro_box" id="d_erro">
+                Preencha todos os campos!
+            </div>
+
+            <div class="line">
+                <span>
+                    <label>NOME</label>
+                    <input type="text" id="i_nome" class="i_texto" required>
+                </span>
+
+                <span>
+                    <label>QUANTIDADE</label>
+                    <input type="number" id="i_quantidade" class="i_texto" required>
+                </span>
+            </div>
+
+            <div class="line">
+                <span>
+                    <label>PREÇO</label>
+                    <input type="number" id="i_preco" class="i_texto" placeholder="R$" required>
+
+                    <span>
+                        <label>MODELO DO TRUCK</label>
+                        <select id="modelo" class="i_texto" required>
+                            <option></option>
+                            <option>Volvo</option>
+                            <option>Scania</option>
+                            <option>Costellation</option>
+                            <option>Iveco</option>
+                        </select>
+                    </span>
+            </div>
+
+            <div class="line">
+                <span>
+                    <input type="submit" value="Finalizar" id="btt_form" onclick="botao()"> <a
+                        href="finalizado.html"></a>
+                </span>
+            </div>
+
+        </div>
+    </form>
+</body>
+
+</html>

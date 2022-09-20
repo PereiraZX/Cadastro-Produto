@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/formulario.css">
+    <script src="js/verificacao.js"></script>
+    
+    <title>Cadastro usuario</title>
+</head>
+<body>
+
+    <div id="pneu">
+        <img src="https://kumhopneus.com.br/home/wp-content/uploads/2019/10/Marca-de-Pneu.png"  alt="" srcset="">
+    </div>
+
+    <form action="finalizado.html"> 
+        <div class="form_box">
+            <div>
+                <h1>JUNTE-SE A NÓS</h1>
+                <div class="erro_box" id="d_erro">
+                 Preencha todos os campos!
+                </div>
+            </div>
+
+    <div class="line">
+        <span>
+            <label>USUÁRIO</label>
+            <input type="text" id="i_emauser" class="i_texto"  required>
+        </span>
+
+        <span>
+            <label>E-MAIL</label>
+            <input type="email" id="i_emcad" class="i_texto" required>
+        </span>
+
+        <span>
+            <label>SENHA</label>
+                  <input type="password" id="i_senha" class="i_texto" required>
+        </span>
+
+        <span>
+            <label>CONFIRMAR SENHA</label>
+            <input type="password" id="i_sencad" class="i_texto" required>
+        </span>
+
+        <span>
+            <label>DATA DE NASCIMENTO</label>
+            <input type="date" id="i_datacad" class="i_texto" required>
+        </span>
+
+        <div class="line">
+            <span>
+             <input type="submit" value="Finalizar" id="btt_form" onclick="botao()"   >  <a href="finalizado.html"></a>
+            </span>
+            
+        </div>
+    
+</body>
+</html>

@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@100;200&family=Teko&display=swap');
+
+:root{
+    /*PALETA FORMULARIO*/
+    --bg-site: #b13236; 
+    --bg_formbox: #ffff;
+    --border_color:#889C9B;
+    --btt_normal: #486966;
+    --btt_hover: #14b3a5;
+    --bg_errobox: rgb(255, 157, 28);
+    --light_text: #ffff;
+    --dark_text:#000000;
+        
+    /*PALETA DO CADASTRO*/
+    --bg_tela: #ffff;
+    --btt_link_normal: #486966;
+    --btt_link_hover:#14b3a5;
+}

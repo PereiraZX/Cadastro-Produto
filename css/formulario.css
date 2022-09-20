@@ -1,0 +1,148 @@
+@import url("global.css");
+
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  overflow: hidden;
+  font-family: 'Teko', sans-serif;
+  background-color: var(--bg-site);
+}
+
+#pneu img {
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 120vh;
+  left: -200px;
+}
+
+.erro_box {
+  background-color: var(--bg_errobox);
+  margin-bottom: 40px;
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+  color: var(--light_text);
+  display: none;
+  font-size: 25px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 40px;
+  color: var(--dark_text);
+}
+
+.form_box {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  z-index: 99;
+  transform: translate(-50%, -80%);
+  margin: auto;
+  padding: 10px;
+  background-color: var(--bg_formbox);
+  width: 450px;
+  border-radius: 2%;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+input[type='date'] {
+  font-family: 'Overpass', sans-serif;
+  color: var(--dark_text);
+}
+
+#checkbox{
+  font-family:'Overpass', sans-serif; 
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  margin:  5px 0px 0px 0 ; 
+}
+
+#checkbox input{
+    width: max-content;
+  margin: -1px 6px 0px 0 ;
+}
+.line input {
+  padding-left: 5px;
+  font-size: 16px;
+  width: 413px;
+}
+
+.line span {
+  margin: 10px;
+  display: block;
+}
+
+.i_texto {
+  width: 200px;
+  min-height: 30px;
+  border: 1px solid var(--border_color);
+}
+
+span label {
+  display: block;
+  text-transform: uppercase;
+}
+
+label {
+  font-family: 'Overpass', sans-serif;
+  font-size: 20px;
+}
+
+select{
+  font-family: 'Overpass', sans-serif;
+  color: var(--dark_text);
+  font-size: 20px;
+}
+
+#btt_form {
+  font-size: 17px;
+  transition: 0.5s ease-out;
+  cursor: pointer;
+  background-color: var(--btt_normal);
+  color: var(--light_text);
+  text-transform: uppercase;
+  border: none;
+  width: 424px;
+  height: 30px;
+  font-family: 'Overpass', sans-serif;
+}
+
+#btt_form:hover {
+  transition: 0.5s ease-in;
+  background-color: var(--btt_hover);
+}
+
+a {
+  color: var(--light_text);
+  text-align: center;
+  text-decoration: none;
+}
+
+#cad {
+  text-decoration: none;
+  cursor: pointer;
+  background-color: var(--btt_normal);
+  text-transform: uppercase;
+  border: none;
+  width: 415px;
+  height: 20px;
+  margin: 15px auto;
+  text-align: center;
+  padding: 4px;
+  font-family: 'Overpass', sans-serif;
+}
+
+#cad:hover {
+  transition: 0.5s ease-in;
+  background-color: var(--btt_hover);
+}

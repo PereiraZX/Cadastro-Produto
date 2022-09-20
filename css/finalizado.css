@@ -1,0 +1,63 @@
+@import url("global.css");
+
+
+body {
+    background-color: var(--bg-site);
+    padding: 0px;
+    margin: 0px;
+}
+
+
+
+.aling {
+    display: flex;
+    height: 100%;
+
+
+
+}
+
+.tela {
+    margin: auto;
+    text-align: center;
+    background-color: var(--bg_tela);
+    width: max-content;
+    padding: 15px;
+    width: 420px;
+    border-radius: 2%;
+
+}
+
+
+img {
+    margin: auto;
+    width: 270px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.tela a {
+
+    font-size: 15px;
+}
+
+#bt_link {
+    font-family: 'Overpass', sans-serif;
+    transition: 0.5s;
+    background-color: var(--btt_link_normal);
+    color: var(--light_text);
+    padding: 5px 10px 5px 10px;
+    text-decoration: none;
+}
+
+#bt_link:hover {
+    transition: 0.5s;
+    background-color: var(--btt_link_hover);
+}
+
+h1 {
+    font-family: 'Teko', sans-serif;
+
+    color: var(--dark_text);
+}
